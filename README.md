@@ -39,10 +39,9 @@ Predict on test data, plot actual vs. predicted prices.
 
 ## PROGRAM
 
-### Name: S.YOGESH
+### Name: ALAN ZION H
 
-### Register Number:212224230311
-
+### Register Number:212223240004
 ```python
 
 import numpy as np
@@ -135,8 +134,8 @@ def train_model(model, train_loader, criterion, optimizer, epochs=20):
         train_losses.append(total_loss / len(train_loader))
         print(f"Epoch [{epoch+1}/{epochs}], Loss: {total_loss / len(train_loader):.4f}")
 # Plot training loss
-    print('Name: Sharan Kumar G')
-    print('Register Number: 212224230260')
+    print('Name: ALAN ZION H')
+    print('Register Number: 212223240004')
     plt.plot(train_losses, label='Training Loss')
     plt.xlabel('Epoch')
     plt.ylabel('MSE Loss')
